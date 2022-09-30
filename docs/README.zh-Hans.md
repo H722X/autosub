@@ -636,7 +636,7 @@ autosub -sapi xfyun -i 输入文件 -sconf 讯飞云语音配置文件 ...(其�
 
 `"config"`属性和[百度短语音识别文档](https://ai.baidu.com/ai-doc/SPEECH/ek38lxj1u)里所说的一样。
 
-如果你要使用短语音识别极速版，把`"cuid"`改为`80001`即可。
+如果你要使用短语音识别极速版，把`"dev_pid"`改为`80001`即可。
 
 如果文件中不包含`"config"`属性，autosub会使用如上的默认内容。
 
